@@ -1,12 +1,8 @@
 # macdiskinfo
 
-Short (for the GitHub “About” field):
-
 Disk health tool for macOS in the style of CrystalDiskInfo: health status, temperature and S.M.A.R.T. data for NVMe and SATA drives, plus experimental reading of USB drives without a kernel extension. Python + Tkinter, built on smartmontools.
 
 Topics: macos, smart, smartctl, ssd, nvme, disk-health, crystaldiskinfo, libusb, python, tkinter
-
-Medium (one paragraph):
 
 MacDiskInfo shows how healthy your Mac’s drives are, the way CrystalDiskInfo does on Windows. Each drive gets a color-coded rating (Good, Caution or Bad) and its temperature. It also shows the key details: firmware, serial number, power-on hours, power cycles, and total data read and written. Below that is the full S.M.A.R.T. attribute table, with problem values highlighted. The data comes from diskutil and smartmontools (smartctl). smartctl is bundled inside the app, and Homebrew is only needed to build it.
 
