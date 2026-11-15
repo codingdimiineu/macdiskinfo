@@ -1,0 +1,3 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")/../Resources" && pwd)"
+exec "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3" -I "$DIR/macdiskinfo.py"
